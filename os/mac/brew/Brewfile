@@ -1,0 +1,23 @@
+tap "denisidoro/tools"
+tap "homebrew/bundle"
+brew "bash"
+brew "bat"
+brew "coreutils"
+brew "findutils"
+brew "fzf"
+brew "gh"
+brew "git"
+brew "git-delta"
+brew "gnu-sed"
+brew "hub"
+brew "hyperfine"
+brew "make"
+brew "mas"
+brew "nvm"
+brew "python@3.11"
+brew "shellcheck"
+brew "zsh"
+brew "denisidoro/tools/docpars"
+mas "Microsoft Outlook", id: 985367838
+mas "Microsoft Word", id: 462054704
+mas "Telegram", id: 747648890
