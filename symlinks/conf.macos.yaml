@@ -17,3 +17,5 @@
     ~/bin/sed: /opt/homebrew/bin/gsed
     ~/bin/touch: /opt/homebrew/bin/gtouch
     ~/bin/zsh: /opt/homebrew/bin/zsh
+    ~/Library/Application Support/Code/User/settings.json: /Users/alejandro/.dotfiles/editors/code/settings.json
+    ~/Library/Application Support/Code/User/snippets: /Users/alejandro/.dotfiles/editors/code/snippets

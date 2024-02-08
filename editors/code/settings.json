@@ -1,0 +1,169 @@
+{
+  "workbench.colorTheme": "Bearded Theme Arc",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.branchSortOrder": "committerdate",
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "sync.gist": "2d23d864fe754cff2ae00fe62bd0eeed",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "dank mono,Fira Code, MesloLGS NF, 'CaskaydiaCove Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.largeFileOptimizations": false,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "scm.inputFontFamily": "dank mono, Fira Code, MesloLGS NF",
+  "update.showReleaseNotes": false,
+  "prettier.enable": true,
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 110,
+  "sort-imports.on-save": true,
+  "material-icon-theme.folders.color": "#42a5f5",
+  // "terminal.integrated.env.windows": {
+  //   "MSYSTEM": "MINGW64",
+  //   "CHERE_INVOKING": "1"
+  // },
+  "json.maxItemsComputed": 50000,
+  "terminal.integrated.fontFamily": "dank mono, MesloLGS NF",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.explorerKind": "external",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exeS",
+  "security.workspace.trust.untrustedFiles": "open",
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "ASK", "[ ]", "[X]"],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "tag",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "foreground": "white",
+      "background": "DarkRed",
+      "opacity": 100,
+      "iconColour": "red",
+      "gutterIcon": true
+    },
+    "[ ]": {
+      "icon": "tasklist",
+      "background": "OrangeRed",
+      "gutterIcon": true
+    },
+    "[X]": {
+      "icon": "tasklist",
+      "background": "DarkGreen",
+      "gutterIcon": true
+    },
+    "ASK": {
+      "icon": "comment-discussion",
+      "gutterIcon": true
+    },
+    "RM": {
+      "icon": "trash",
+      "background": "red",
+      "type": "line",
+      "gutterIcon": true
+    }
+  },
+  "files.maxMemoryForLargeFilesMB": 11288,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "azureResourceManagerTools.parameterFiles": {
+    "/home/alejandro/repos/core-api/arm/template.json": "template.parameters.json",
+    "/home/alejandro/repos/telemetry-admin-panel/arm/template.json": "template.parameters.json",
+    "/home/alejandro/repos/telemetry-function-apps/arm/template.json": "template.parameters.json",
+    "/home/alejandro/repos/telemetry-first-install/arm/template.json": "template.parameters.json",
+    "/home/alejandro/repos/citas-function-apps/arm/template.json": "template.parameters.json",
+    "/home/alejandro/Repositorios/telemetry-first-install/arm/template.json": "template.parameters.json",
+    "/home/alejandro/Repositorios/telemetry-backup-function-apps/arm/template.json": "template.parameters.json",
+    "/home/alejandro/Repositorios/telemetry-function-apps/arm/template.json": "template.parameters.json",
+    "/home/alejandro/Repositorios/core-api/arm/template.json": "template.parameters.json",
+    "/home/alejandro/Repositorios/telemetry-admin-panel/arm/template.json": "template.parameters.json",
+    "/home/alejandro/Repositorios/telemetry-admin-panel-api/arm/template.json": "template.parameters.json",
+    "/home/alejandro/Repositorios/telemetry-stream-iot/arm/template.json": "template.parameters.json"
+  },
+  "[arm-template]": {
+    "editor.defaultFormatter": "msazurermtools.azurerm-vscode-tools"
+  },
+  "projectManager.git.baseFolders": ["/home/alejandro"],
+  "files.autoSave": "onFocusChange",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.language": "en,es-ES",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "Addy",
+    "ademy",
+    "bbid",
+    "Blackbox",
+    "Blackboxes",
+    "dbaeumer",
+    "Dodds",
+    "Eagleson",
+    "esbenp",
+    "Fapps",
+    "imei",
+    "Karlton",
+    "kejix",
+    "Osmani",
+    "pkief",
+    "prettierrc",
+    "spellright"
+  ],
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.startupEditor": "none",
+  "remote.SSH.remotePlatform": {
+    "tellmealex.dev": "linux",
+    "198.12.82.184": "linux"
+  },
+  "discord.detailsDebugging": "Depurando {file_name}",
+  "discord.largeImage": "Editandoa {LANG} file",
+  "discord.lowerDetailsDebugging": "Depurando: {workspace}",
+  "editor.accessibilitySupport": "off",
+  "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}",
+  "liveshare.accessibility.voice": "es-ES-Elvira",
+  "arduino.useArduinoCli": true
+}
